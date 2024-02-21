@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To-Do List</title>
+        <link rel="stylesheet" href="todo.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+    </head>
+
+    <body>
+        <div class="app">
+            <!-- header -->
+            <div class="header">
+                <h2 class="headerTitle">My Todo List</h2>
+                <div class="headerInfo">
+                    <div class="dateTime">
+                        <span id="date"></span>
+                        <span id="time"></span>
+                    </div>
+
+                    <div>
+                        <input
+                            type="text"
+                            placeholder="Enter a task..."
+                            id="input"
+                        />
+                        <button id="button" tabindex="0">Enter</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- body -->
+            <div class="body"> </div>
+        </div>
+        <script src="todo.js"></script>
+    </body>
+</html>
